@@ -20,7 +20,7 @@ function App() {
   return <p>Loading...</p>
   return (
     <div>
-     <img src={pic} alt="A Random Dog"></img>
+     <img src={pic.message} alt="A Random Dog"></img>
     </div>
   );
 }
